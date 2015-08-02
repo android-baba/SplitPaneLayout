@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Split">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="splitSize" format="dimension" />
+        <attr name="splitMovable" format="boolean" />
+        <attr name="splitPosition" format="dimension|fraction" />
+        <attr name="splitBackground" format="reference|color" />
+        <attr name="splitDraggingBackground" format="reference|color" />
+    </declare-styleable>
+    
+</resources>

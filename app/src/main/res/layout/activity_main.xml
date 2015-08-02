@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:spl="http://schemas.android.com/apk/res-auto"
+    tools:context="com.androidbaba.splitpanelayout.MainActivity">
+
+    <com.androidbaba.library.SplitPaneLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        spl:orientation="horizontal"
+        spl:splitSize="10dp"
+        spl:splitPosition="50%" >
+
+        <com.androidbaba.library.SplitPaneLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            spl:orientation="vertical"
+            spl:splitSize="10dp"
+            spl:splitPosition="50%" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#aa4400" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Top-Left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#aa0044" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bottom-Left" />
+            </RelativeLayout>
+
+        </com.androidbaba.library.SplitPaneLayout>
+
+        <com.androidbaba.library.SplitPaneLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            spl:orientation="vertical"
+            spl:splitSize="10dp"
+            spl:splitPosition="50%" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#440000" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Top-Right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000044" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bottom-Right" />
+            </RelativeLayout>
+
+        </com.androidbaba.library.SplitPaneLayout>
+
+    </com.androidbaba.library.SplitPaneLayout>
+
+</RelativeLayout>
