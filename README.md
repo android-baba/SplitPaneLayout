@@ -1,18 +1,8 @@
 android-splitpane-layout
-=========================
-
-
-**Integration**
-====
-
-**Add the dependency**
-
-    dependencies {
-    	compile 'com.androidbaba:splipanelibrary:1.0'
-    }
-
+========================
 
 **XML usage:**
+==============
 
      <com.androidbaba.splitpanelibrary.SplitPaneLayout
         android:layout_width="match_parent"
@@ -41,6 +31,6 @@ android-splitpane-layout
 **Output:**
 
 ![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/spl1.png)
-![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp2.png)
-![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp3.png)
-![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp4.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/spl2.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/spl3.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/spl4.png)
