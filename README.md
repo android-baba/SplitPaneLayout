@@ -40,7 +40,7 @@ android-splitpane-layout
 
 **Output:**
 
-![SplitPaneLayout](https://github.com/kanytu/android-parallax-listview/blob/master/screenshots/slp1.png)
-![SplitPaneLayout](https://github.com/kanytu/android-parallax-listview/blob/master/screenshots/slp2.png)
-![SplitPaneLayout](https://github.com/kanytu/android-parallax-listview/blob/master/screenshots/slp3.png)
-![SplitPaneLayout](https://github.com/kanytu/android-parallax-listview/blob/master/screenshots/slp4.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/spl1.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp2.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp3.png)
+![SplitPaneLayout](https://github.com/android-baba/SplitPaneLayout/blob/master/Screenshots/slp4.png)
